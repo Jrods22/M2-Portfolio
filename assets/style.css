@@ -93,6 +93,12 @@ h2 {
     color: black;
 }
 
+.work a {
+    font-size: 35px;
+    text-align: center;
+    display: inline;
+}
+
 h3 {
     text-align: center;
     background-color: lightgray;
@@ -145,4 +151,32 @@ footer {
     color: black;
     text-align: center;
     font-size: 25px;
+}
+
+.github {
+    background-image: url(../images\github-icon.png);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+  }
+
+@media screen and (max-width) {
+    body
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width) {
+    .work .contacts .Myself
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 10%;
+        height: 10%;
+        margin: 0;
+    }
 }
